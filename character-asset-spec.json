@@ -1,0 +1,64 @@
+{
+  "asset_name": "chandra_guide_character",
+  "format_priority": ["glb", "gltf"],
+  "character": {
+    "archetype": "young_south_indian_male",
+    "style": "semi_realistic_stylized",
+    "personality": ["smart", "confident", "creative"],
+    "facial_features": {
+      "hair": "short_styled",
+      "beard": "light_beard",
+      "expression": "confident_warm"
+    },
+    "clothing": {
+      "top": "white_shirt",
+      "bottom": "mundu_or_dhoti",
+      "footwear": "barefoot_or_minimal"
+    },
+    "accessories": ["watch", "bracelet"]
+  },
+  "rigging": {
+    "body": true,
+    "face": true,
+    "hands": true,
+    "eyes": true,
+    "mouth": true,
+    "brows": true
+  },
+  "mesh_groups": [
+    "body",
+    "clothing",
+    "accessories_watch",
+    "accessories_bracelet",
+    "prop_laptop",
+    "prop_desk",
+    "prop_camera",
+    "prop_books",
+    "prop_mug",
+    "prop_decor"
+  ],
+  "animations": [
+    "idle_breathing",
+    "look_around_confident",
+    "gesture_presenting_left",
+    "gesture_presenting_right",
+    "gesture_explaining",
+    "walk_loop",
+    "turn_in_place"
+  ],
+  "interactive": {
+    "laptop_screen_dynamic": true,
+    "floating_ui_runtime": ["Designer", "Developer", "Dreamer"]
+  },
+  "lighting": {
+    "mood": "golden_hour",
+    "shadows": "soft",
+    "presentation": "clean_modern_portfolio"
+  },
+  "web_notes": {
+    "runtime": ["three.js", "react-three-fiber"],
+    "screen_material_name": "mat_laptop_screen",
+    "recommended_file_name": "chandra_guide_character.glb"
+  }
+}
+
